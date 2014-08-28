@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA5299219A2F79100261961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA5299119A2F79100261961 /* Foundation.framework */; };
+		1CA5299419A2F79100261961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA5299319A2F79100261961 /* CoreGraphics.framework */; };
+		1CA5299619A2F79100261961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA5299519A2F79100261961 /* UIKit.framework */; };
+		1CA5299C19A2F79100261961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CA5299A19A2F79100261961 /* InfoPlist.strings */; };
+		1CA5299E19A2F79100261961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5299D19A2F79100261961 /* main.m */; };
+		1CA529A219A2F79100261961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA529A119A2F79100261961 /* AppDelegate.m */; };
+		1CA529A519A2F79100261961 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529A319A2F79100261961 /* Main_iPhone.storyboard */; };
+		1CA529A819A2F79100261961 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529A619A2F79100261961 /* Main_iPad.storyboard */; };
+		1CA529AB19A2F79100261961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA529AA19A2F79100261961 /* ViewController.m */; };
+		1CA529AD19A2F79100261961 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529AC19A2F79100261961 /* Images.xcassets */; };
+		1CA529B419A2F79100261961 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA529B319A2F79100261961 /* XCTest.framework */; };
+		1CA529B519A2F79100261961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA5299119A2F79100261961 /* Foundation.framework */; };
+		1CA529B619A2F79100261961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA5299519A2F79100261961 /* UIKit.framework */; };
+		1CA529BE19A2F79100261961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529BC19A2F79100261961 /* InfoPlist.strings */; };
+		1CA529C019A2F79100261961 /* IconMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA529BF19A2F79100261961 /* IconMakerTests.m */; };
+		1CA529CB19A2F7FD00261961 /* UIImage+UIImageExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA529CA19A2F7FD00261961 /* UIImage+UIImageExt.m */; };
+		1CA529CF19A311AB00261961 /* Icon_origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529CE19A311AB00261961 /* Icon_origin.png */; };
+		1CA529D119A3121700261961 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529D019A3121700261961 /* default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA529B719A2F79100261961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA5298619A2F79100261961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA5298D19A2F79100261961;
+			remoteInfo = IconMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA5298E19A2F79100261961 /* IconMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA5299119A2F79100261961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CA5299319A2F79100261961 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CA5299519A2F79100261961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CA5299919A2F79100261961 /* IconMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IconMaker-Info.plist"; sourceTree = "<group>"; };
+		1CA5299B19A2F79100261961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CA5299D19A2F79100261961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CA5299F19A2F79100261961 /* IconMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IconMaker-Prefix.pch"; sourceTree = "<group>"; };
+		1CA529A019A2F79100261961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CA529A119A2F79100261961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CA529A419A2F79100261961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1CA529A719A2F79100261961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1CA529A919A2F79100261961 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CA529AA19A2F79100261961 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CA529AC19A2F79100261961 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CA529B219A2F79100261961 /* IconMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA529B319A2F79100261961 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CA529BB19A2F79100261961 /* IconMakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IconMakerTests-Info.plist"; sourceTree = "<group>"; };
+		1CA529BD19A2F79100261961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CA529BF19A2F79100261961 /* IconMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconMakerTests.m; sourceTree = "<group>"; };
+		1CA529C919A2F7FD00261961 /* UIImage+UIImageExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageExt.h"; sourceTree = "<group>"; };
+		1CA529CA19A2F7FD00261961 /* UIImage+UIImageExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageExt.m"; sourceTree = "<group>"; };
+		1CA529CE19A311AB00261961 /* Icon_origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_origin.png; sourceTree = "<group>"; };
+		1CA529D019A3121700261961 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA5298B19A2F79100261961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA5299419A2F79100261961 /* CoreGraphics.framework in Frameworks */,
+				1CA5299619A2F79100261961 /* UIKit.framework in Frameworks */,
+				1CA5299219A2F79100261961 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA529AF19A2F79100261961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA529B419A2F79100261961 /* XCTest.framework in Frameworks */,
+				1CA529B619A2F79100261961 /* UIKit.framework in Frameworks */,
+				1CA529B519A2F79100261961 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA5298519A2F79100261961 = {
+			isa = PBXGroup;
+			children = (
+				1CA5299719A2F79100261961 /* IconMaker */,
+				1CA529B919A2F79100261961 /* IconMakerTests */,
+				1CA5299019A2F79100261961 /* Frameworks */,
+				1CA5298F19A2F79100261961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA5298F19A2F79100261961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA5298E19A2F79100261961 /* IconMaker.app */,
+				1CA529B219A2F79100261961 /* IconMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA5299019A2F79100261961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA5299119A2F79100261961 /* Foundation.framework */,
+				1CA5299319A2F79100261961 /* CoreGraphics.framework */,
+				1CA5299519A2F79100261961 /* UIKit.framework */,
+				1CA529B319A2F79100261961 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CA5299719A2F79100261961 /* IconMaker */ = {
+			isa = PBXGroup;
+			children = (
+				1CA529CE19A311AB00261961 /* Icon_origin.png */,
+				1CA529D019A3121700261961 /* default.png */,
+				1CA529C919A2F7FD00261961 /* UIImage+UIImageExt.h */,
+				1CA529CA19A2F7FD00261961 /* UIImage+UIImageExt.m */,
+				1CA529A019A2F79100261961 /* AppDelegate.h */,
+				1CA529A119A2F79100261961 /* AppDelegate.m */,
+				1CA529A319A2F79100261961 /* Main_iPhone.storyboard */,
+				1CA529A619A2F79100261961 /* Main_iPad.storyboard */,
+				1CA529A919A2F79100261961 /* ViewController.h */,
+				1CA529AA19A2F79100261961 /* ViewController.m */,
+				1CA529AC19A2F79100261961 /* Images.xcassets */,
+				1CA5299819A2F79100261961 /* Supporting Files */,
+			);
+			path = IconMaker;
+			sourceTree = "<group>";
+		};
+		1CA5299819A2F79100261961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA5299919A2F79100261961 /* IconMaker-Info.plist */,
+				1CA5299A19A2F79100261961 /* InfoPlist.strings */,
+				1CA5299D19A2F79100261961 /* main.m */,
+				1CA5299F19A2F79100261961 /* IconMaker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CA529B919A2F79100261961 /* IconMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA529BF19A2F79100261961 /* IconMakerTests.m */,
+				1CA529BA19A2F79100261961 /* Supporting Files */,
+			);
+			path = IconMakerTests;
+			sourceTree = "<group>";
+		};
+		1CA529BA19A2F79100261961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA529BB19A2F79100261961 /* IconMakerTests-Info.plist */,
+				1CA529BC19A2F79100261961 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CA5298D19A2F79100261961 /* IconMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA529C319A2F79100261961 /* Build configuration list for PBXNativeTarget "IconMaker" */;
+			buildPhases = (
+				1CA5298A19A2F79100261961 /* Sources */,
+				1CA5298B19A2F79100261961 /* Frameworks */,
+				1CA5298C19A2F79100261961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconMaker;
+			productName = IconMaker;
+			productReference = 1CA5298E19A2F79100261961 /* IconMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CA529B119A2F79100261961 /* IconMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA529C619A2F79100261961 /* Build configuration list for PBXNativeTarget "IconMakerTests" */;
+			buildPhases = (
+				1CA529AE19A2F79100261961 /* Sources */,
+				1CA529AF19A2F79100261961 /* Frameworks */,
+				1CA529B019A2F79100261961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA529B819A2F79100261961 /* PBXTargetDependency */,
+			);
+			name = IconMakerTests;
+			productName = IconMakerTests;
+			productReference = 1CA529B219A2F79100261961 /* IconMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA5298619A2F79100261961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = lcqgrey;
+				TargetAttributes = {
+					1CA529B119A2F79100261961 = {
+						TestTargetID = 1CA5298D19A2F79100261961;
+					};
+				};
+			};
+			buildConfigurationList = 1CA5298919A2F79100261961 /* Build configuration list for PBXProject "IconMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CA5298519A2F79100261961;
+			productRefGroup = 1CA5298F19A2F79100261961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA5298D19A2F79100261961 /* IconMaker */,
+				1CA529B119A2F79100261961 /* IconMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA5298C19A2F79100261961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA529A819A2F79100261961 /* Main_iPad.storyboard in Resources */,
+				1CA529AD19A2F79100261961 /* Images.xcassets in Resources */,
+				1CA529D119A3121700261961 /* default.png in Resources */,
+				1CA529A519A2F79100261961 /* Main_iPhone.storyboard in Resources */,
+				1CA529CF19A311AB00261961 /* Icon_origin.png in Resources */,
+				1CA5299C19A2F79100261961 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA529B019A2F79100261961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA529BE19A2F79100261961 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA5298A19A2F79100261961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA529AB19A2F79100261961 /* ViewController.m in Sources */,
+				1CA529CB19A2F7FD00261961 /* UIImage+UIImageExt.m in Sources */,
+				1CA529A219A2F79100261961 /* AppDelegate.m in Sources */,
+				1CA5299E19A2F79100261961 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA529AE19A2F79100261961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA529C019A2F79100261961 /* IconMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA529B819A2F79100261961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA5298D19A2F79100261961 /* IconMaker */;
+			targetProxy = 1CA529B719A2F79100261961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CA5299A19A2F79100261961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA5299B19A2F79100261961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CA529A319A2F79100261961 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA529A419A2F79100261961 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1CA529A619A2F79100261961 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA529A719A2F79100261961 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1CA529BC19A2F79100261961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA529BD19A2F79100261961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CA529C119A2F79100261961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CA529C219A2F79100261961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CA529C419A2F79100261961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IconMaker/IconMaker-Prefix.pch";
+				INFOPLIST_FILE = "IconMaker/IconMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CA529C519A2F79100261961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IconMaker/IconMaker-Prefix.pch";
+				INFOPLIST_FILE = "IconMaker/IconMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CA529C719A2F79100261961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IconMaker.app/IconMaker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IconMaker/IconMaker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IconMakerTests/IconMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1CA529C819A2F79100261961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IconMaker.app/IconMaker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IconMaker/IconMaker-Prefix.pch";
+				INFOPLIST_FILE = "IconMakerTests/IconMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA5298919A2F79100261961 /* Build configuration list for PBXProject "IconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA529C119A2F79100261961 /* Debug */,
+				1CA529C219A2F79100261961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA529C319A2F79100261961 /* Build configuration list for PBXNativeTarget "IconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA529C419A2F79100261961 /* Debug */,
+				1CA529C519A2F79100261961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA529C619A2F79100261961 /* Build configuration list for PBXNativeTarget "IconMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA529C719A2F79100261961 /* Debug */,
+				1CA529C819A2F79100261961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CA5298619A2F79100261961 /* Project object */;
+}
