@@ -29,6 +29,10 @@
     
     [self appDefault:defaultImage];
     
+    NSString *path2 = [[NSBundle mainBundle] pathForResource:@"introduce" ofType:@"png"];
+    UIImage *defatImage = [UIImage imageWithContentsOfFile:path2];
+    UIImage *icon_57 = [defatImage imageByScalingAndCroppingForSize:CGSizeMake(290.0, 178.0)];
+    [icon_57 saveImageWithName:@"introduce.png"];
 }
 
 - (void)appIcon:(UIImage *)image

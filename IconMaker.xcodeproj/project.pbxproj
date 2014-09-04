@@ -24,7 +24,9 @@
 		1CA529C019A2F79100261961 /* IconMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA529BF19A2F79100261961 /* IconMakerTests.m */; };
 		1CA529CB19A2F7FD00261961 /* UIImage+UIImageExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA529CA19A2F7FD00261961 /* UIImage+UIImageExt.m */; };
 		1CA529CF19A311AB00261961 /* Icon_origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529CE19A311AB00261961 /* Icon_origin.png */; };
-		1CA529D119A3121700261961 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA529D019A3121700261961 /* default.png */; };
+		21F36E5B19B8B8BA0007CCAF /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F36E5A19B8B8BA0007CCAF /* default.png */; };
+		21F36E6319B8BB810007CCAF /* join.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F36E6219B8BB810007CCAF /* join.png */; };
+		21F36E6519B8BC830007CCAF /* introduce.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F36E6419B8BC830007CCAF /* introduce.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +63,9 @@
 		1CA529C919A2F7FD00261961 /* UIImage+UIImageExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageExt.h"; sourceTree = "<group>"; };
 		1CA529CA19A2F7FD00261961 /* UIImage+UIImageExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageExt.m"; sourceTree = "<group>"; };
 		1CA529CE19A311AB00261961 /* Icon_origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_origin.png; sourceTree = "<group>"; };
-		1CA529D019A3121700261961 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		21F36E5A19B8B8BA0007CCAF /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		21F36E6219B8BB810007CCAF /* join.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = join.png; sourceTree = "<group>"; };
+		21F36E6419B8BC830007CCAF /* introduce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introduce.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +125,10 @@
 		1CA5299719A2F79100261961 /* IconMaker */ = {
 			isa = PBXGroup;
 			children = (
+				21F36E6419B8BC830007CCAF /* introduce.png */,
+				21F36E6219B8BB810007CCAF /* join.png */,
+				21F36E5A19B8B8BA0007CCAF /* default.png */,
 				1CA529CE19A311AB00261961 /* Icon_origin.png */,
-				1CA529D019A3121700261961 /* default.png */,
 				1CA529C919A2F7FD00261961 /* UIImage+UIImageExt.h */,
 				1CA529CA19A2F7FD00261961 /* UIImage+UIImageExt.m */,
 				1CA529A019A2F79100261961 /* AppDelegate.h */,
@@ -244,10 +250,12 @@
 			files = (
 				1CA529A819A2F79100261961 /* Main_iPad.storyboard in Resources */,
 				1CA529AD19A2F79100261961 /* Images.xcassets in Resources */,
-				1CA529D119A3121700261961 /* default.png in Resources */,
 				1CA529A519A2F79100261961 /* Main_iPhone.storyboard in Resources */,
 				1CA529CF19A311AB00261961 /* Icon_origin.png in Resources */,
 				1CA5299C19A2F79100261961 /* InfoPlist.strings in Resources */,
+				21F36E6519B8BC830007CCAF /* introduce.png in Resources */,
+				21F36E5B19B8B8BA0007CCAF /* default.png in Resources */,
+				21F36E6319B8BB810007CCAF /* join.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
